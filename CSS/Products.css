@@ -81,3 +81,18 @@ body {
 .product-card a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 992px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .product-card {
+    flex-direction: column;
+  }
+  
+  .product-card img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

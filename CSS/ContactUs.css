@@ -165,3 +165,23 @@ button {
   cursor: pointer;
   margin-bottom: 5px;
 }
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-form, .locations {
+    padding: 20px;
+  }
+  
+  .form-group.double {
+    flex-direction: column;
+  }
+  
+  .form-group.double input, 
+  .form-group.double select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
